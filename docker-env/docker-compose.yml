@@ -6,7 +6,6 @@ services:
     networks:
       - backend
     volumes:
-      - ./public_html/:/var/www/html/public/
       - ./../magento2/:/var/www/html/magento/
     container_name: php
   apache:
