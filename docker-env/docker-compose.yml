@@ -20,7 +20,6 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./public_html/:/var/www/html/public/
       - ./../magento2/:/var/www/html/magento/
     container_name: apache
   mysql:
